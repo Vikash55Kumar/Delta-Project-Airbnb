@@ -1,7 +1,7 @@
 const express=require("express");
 const router=express.Router();
 const WrapAsync=require("../Utils/WrapAsync.js");
-const Listing=require("E:/Kumar/Project Management/models/listing.js");
+const Listing=require("/listing.js");
 //to require or link 1-function-name, 2-filename
 const {isLoggedIn, isOwner, validateListing}=require("../middelware.js");
 
