@@ -1,7 +1,7 @@
 const express=require("express");
 const router=express.Router({mergeParams: true});
 const WrapAsync=require("../Utils/WrapAsync.js");
-const Review = require("E:/Kumar/Project Management/models/review.js");
+const Review = require("../models/review.js");
 // const Listing=require("E:/Kumar/Project Management/models/listing.js");
 const {validateReview, isLoggedIn, isReviewAuthor}=require("../middelware.js");
 
